@@ -13,6 +13,6 @@ export async function login(formdata: FormData) {
     const {error} = await supabase.auth.signInWithPassword(data);
     
     if (!error) {
-        redirect("/dashboard");
+        redirect("/");
     }
 }

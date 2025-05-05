@@ -21,7 +21,7 @@ const LoginPage = () => {
                 />
 
                 <button type="submit" className="bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 transition duration-200">
-                    Cadastrar
+                    Login
                 </button>
             </form>
         </div>
